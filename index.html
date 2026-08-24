@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW 7 Series Competition - Disassembly Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background 3D Scroll Canvas Layer -->
+    <div class="canvas-container">
+        <canvas id="animation-canvas"></canvas>
+    </div>
+
+    <!-- Fixed Header Navigation Bar -->
+    <header class="top-nav">
+        <div class="brand">
+            <svg class="bmw-logo" viewBox="0 0 100 100" width="36" height="36">
+                <circle cx="50" cy="50" r="48" fill="#000" stroke="#fff" stroke-width="3"/>
+                <path d="M50,2 A48,48 0 0,1 98,50 L50,50 Z" fill="#0066B1"/>
+                <path d="M50,50 L98,50 A48,48 0 0,1 50,98 Z" fill="#FFF"/>
+                <path d="M50,50 L50,98 A48,48 0 0,1 2,50 Z" fill="#0066B1"/>
+                <path d="M2,50 A48,48 0 0,1 50,2 L50,50 Z" fill="#FFF"/>
+                <circle cx="50" cy="50" r="28" fill="none" stroke="#fff" stroke-width="2"/>
+            </svg>
+            <span class="brand-text">BMW 7 SERIES</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#hero" class="active">740i SEDAN</a>
+            <a href="#specs">760i xDRIVE</a>
+            <a href="#exterior">M SPORT</a>
+            <a href="#engine">TWINPOWER TURBO</a>
+            <a href="#interior">EXECUTIVE CABIN</a>
+        </nav>
+
+        <div class="header-actions">
+            <button class="icon-btn" aria-label="Search">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <button class="icon-btn" aria-label="Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Scroll Content Overlay -->
+    <main class="page-content">
+
+        <!-- Hero Section -->
+        <section id="hero" class="content-section hero-section">
+            <div class="hero-box">
+                <span class="sub-heading">BMW 7 SERIES COMPETITION</span>
+                <h1 class="main-title">ALWAYS READY<br>TO WIN</h1>
+                <a href="#specs" class="cta-button">LEARN MORE</a>
+            </div>
+
+            <!-- Key Performance Specs Bar -->
+            <div class="specs-bar" id="specs">
+                <div class="spec-item">
+                    <span class="spec-value">536 HP</span>
+                    <span class="spec-label">Engine Output</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-value">3.7 SEC</span>
+                    <span class="spec-label">0-100 km/h Acceleration</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-value">4.4 L</span>
+                    <span class="spec-label">Engine Displacement</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-value">2.05 T</span>
+                    <span class="spec-label">Curb Mass</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-value">250 KM/H</span>
+                    <span class="spec-label">Maximum Speed</span>
+                </div>
+            </div>
+
+            <div class="scroll-down-hint">
+                <div class="mouse-icon"><div class="wheel"></div></div>
+            </div>
+        </section>
+
+        <!-- Section 01: Dynamic Design -->
+        <section id="exterior" class="content-section feature-grid-section">
+            <div class="grid-card split-layout">
+                <div class="grid-media">
+                    <img src="bmw_exterior.jpg" alt="BMW Dynamic Exterior" class="section-img">
+                    <div class="carousel-counter">01 / 05</div>
+                </div>
+                <div class="grid-info">
+                    <span class="watermark-num">01</span>
+                    <span class="category-tag">EXTERIOR</span>
+                    <h2>DYNAMIC DESIGN</h2>
+                    <p>The dynamics of the BMW 7 Series are reflected in its powerful athletic proportions, from the distinctive iconic kidney grille to the aerodynamic M Sport exhaust system.</p>
+                    <a href="#engine" class="link-btn">EXPLORE AERODYNAMICS &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 02: Engine -->
+        <section id="engine" class="content-section feature-grid-section">
+            <div class="grid-card split-layout reverse">
+                <div class="grid-info">
+                    <span class="watermark-num">02</span>
+                    <span class="category-tag">ENGINE</span>
+                    <h2>M TWINPOWER TURBO</h2>
+                    <p>The heart of the BMW 7 Series is an 8-cylinder twin-turbocharged gasoline engine delivering immense horsepower, instant torque response, and a signature sport exhaust sound.</p>
+                    <a href="#interior" class="link-btn">VIEW SPECIFICATIONS &rarr;</a>
+                </div>
+                <div class="grid-media">
+                    <img src="bmw_engine.jpg" alt="BMW TwinPower Turbo Engine" class="section-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 03: Interior -->
+        <section id="interior" class="content-section feature-grid-section">
+            <div class="grid-card split-layout">
+                <div class="grid-media">
+                    <img src="bmw_interior.jpg" alt="BMW Cabin Interior" class="section-img">
+                </div>
+                <div class="grid-info">
+                    <span class="watermark-num">03</span>
+                    <span class="category-tag">INTERIOR</span>
+                    <h2>CABIN DESIGN</h2>
+                    <p>An atmosphere of executive luxury and motorsport ergonomics. High-grade Merino leather, ambient lighting, and digital curved displays elevate every journey.</p>
+                    <a href="#media" class="link-btn">LEARN MORE &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 04: Media / Performance Preview -->
+        <section id="media" class="content-section media-section">
+            <div class="media-card">
+                <img src="bmw_rear.jpg" alt="BMW 7 Series Dynamic Drive" class="media-bg-img">
+                <div class="play-overlay">
+                    <button class="play-btn" aria-label="Play Video">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    </button>
+                </div>
+                <div class="media-title-overlay">
+                    <span>DYNAMIC ROAD PERFORMANCE</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 05: Book a Test Drive & Footer -->
+        <section id="testdrive" class="content-section testdrive-section">
+            <div class="testdrive-card">
+                <span class="watermark-num">05</span>
+                <h2>BOOK A TEST DRIVE</h2>
+                <p>Fill out the form below to experience the engineering of the BMW 7 Series firsthand.</p>
+
+                <form class="testdrive-form" onsubmit="event.preventDefault();">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" placeholder="Your Phone Number" required>
+                    </div>
+                    <button type="submit" class="submit-btn">SIGN UP</button>
+                </form>
+
+                <p class="form-disclaimer">By clicking "Sign Up", you agree to the processing of personal data.</p>
+            </div>
+
+            <!-- Footer -->
+            <footer class="site-footer">
+                <div class="footer-brand">
+                    <svg class="bmw-logo-sm" viewBox="0 0 100 100" width="24" height="24">
+                        <circle cx="50" cy="50" r="48" fill="#000" stroke="#fff" stroke-width="3"/>
+                        <path d="M50,2 A48,48 0 0,1 98,50 L50,50 Z" fill="#0066B1"/>
+                        <path d="M50,50 L98,50 A48,48 0 0,1 50,98 Z" fill="#FFF"/>
+                        <path d="M50,50 L50,98 A48,48 0 0,1 2,50 Z" fill="#0066B1"/>
+                        <path d="M2,50 A48,48 0 0,1 50,2 L50,50 Z" fill="#FFF"/>
+                    </svg>
+                    <span>© 2026 BMW AG. All rights reserved.</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter">TW</a>
+                    <a href="#" aria-label="VK">VK</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                </div>
+            </footer>
+        </section>
+
+    </main>
+
+    <!-- Side Navigation Phase Dots -->
+    <nav class="phase-nav">
+        <button class="phase-dot active" data-progress="0.0" title="Hero"></button>
+        <button class="phase-dot" data-progress="0.22" title="Dynamic Design"></button>
+        <button class="phase-dot" data-progress="0.45" title="TwinPower Turbo"></button>
+        <button class="phase-dot" data-progress="0.68" title="Cabin Interior"></button>
+        <button class="phase-dot" data-progress="0.88" title="Test Drive"></button>
+    </nav>
+
+    <!-- Bottom Interactive Scrub Bar -->
+    <div class="bottom-controls">
+        <div class="scrub-container">
+            <span class="scrub-label">DISASSEMBLY SCRUBBER</span>
+            <input type="range" id="scrub-slider" min="0" max="1000" value="0" step="1">
+            <span class="scrub-value" id="scrub-value">0%</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
