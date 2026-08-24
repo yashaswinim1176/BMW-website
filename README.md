@@ -2,13 +2,13 @@
 
 <div align="center">
 
-[![Netlify Demo](https://img.shields.io/badge/Netlify%20Live-Click%20Here-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](http://effulgent-sawine-871a5c.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bmw-7-series-disassembly.surge.sh)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-BMW--website-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashaswinim1176/BMW-website)
 [![Developer](https://img.shields.io/badge/Developer-Yashaswini%20M-FFD700?style=for-the-badge&logo=academic&logoColor=black)](mailto:yashaswinim1176@gmail.com)
 
 ---
 
-### 🌐 [Click Here to View Live Netlify Application](http://effulgent-sawine-871a5c.netlify.app)
+### 🌐 [Click Here to View Live Interactive Website](https://bmw-7-series-disassembly.surge.sh)
 
 </div>
 
@@ -72,7 +72,7 @@ Built with an HTML5 `<canvas>` rendering engine, linear interpolation (`lerp`) f
 - **Email:** [yashaswinim1176@gmail.com](mailto:yashaswinim1176@gmail.com)
 - **GitHub:** [@yashaswinim1176](https://github.com/yashaswinim1176)
 - **Repository:** [https://github.com/yashaswinim1176/BMW-website](https://github.com/yashaswinim1176/BMW-website)
-- **Netlify Site:** [http://effulgent-sawine-871a5c.netlify.app](http://effulgent-sawine-871a5c.netlify.app)
+- **Live Site:** [https://bmw-7-series-disassembly.surge.sh](https://bmw-7-series-disassembly.surge.sh)
 
 ---
 
